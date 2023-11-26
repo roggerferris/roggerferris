@@ -3,11 +3,11 @@
 
   RewriteEngine On
   RewriteCond %{SERVER_PORT} 80
-  RewriteRule ^(.*)$ https://roggerferris.github.io/roggerferris/ [R=301,L]
+  RewriteRule ^(.*)$ https://www.thetourpilot.com/ [R=301,L]
 
   RewriteEngine On
-  RewriteCond %{HTTP_HOST} ^roggerferris.github.io/roggerferris/
-  RewriteRule (.*) https://roggerferris.github.io/roggerferris/ [R=301,L]
+  RewriteCond %{HTTP_HOST} https://www.thetourpilot.com/
+  RewriteRule (.*) https://www.thetourpilot.com/ [R=301,L]
 
   RewriteEngine On
   RewriteBase /
